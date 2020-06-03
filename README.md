@@ -1,6 +1,14 @@
 # simple-plex-trailer-downloader-rclone
 Simple Plex Movie Trailer downloader with optional rclone support
 
+# Required:
+
+#youtube-dl 
+sudo -H pip install --upgrade youtube-dl
+
+#ffmpeg
+sudo apt-get install ffmpeg
+
 # Must fill out:
 
 movie_dir = ""  # Your Movie directory 
